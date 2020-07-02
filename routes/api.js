@@ -7,9 +7,9 @@ var jwt = require('jsonwebtoken');
 
 router.post('/insert-post',post.insert);
 router.get('/select-post',post.select);
-router.post('/edit-post',verification,post.edit);
-router.post('/remove-post',verification,post.remove);
-router.post('/sort-post',verification,post.sort);
+router.post('/edit-post',post.edit);
+router.post('/remove-post',post.remove);
+router.post('/sort-post',post.sort);
 
 router.post('/insert-user',user.insertUser);
 router.post('/find-user',user.findUser);
