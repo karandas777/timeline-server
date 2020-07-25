@@ -7,6 +7,7 @@ function insert(req,res){
         post_title:req.body.post_title,
         post_cat:req.body.post_cat,
         post_body:req.body.post_body,
+        post_image:req.body.post_image,
     });
 
     postdata.save()

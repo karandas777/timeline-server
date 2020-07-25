@@ -12,6 +12,10 @@ var schema = mongoose.Schema({
         type:String,
         require:true
     },
+    post_image:{
+        type:String,
+        require:true
+    },
     post_body:{
         type:String,
         require:true
